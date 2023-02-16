@@ -9,6 +9,7 @@ Pensando nisso, o software Fit Life chega ao mercado pensando em você, gestor d
 - Ana Clara Bertoldo A. Pereira 
   acbanastacio@sga.pucminas.br
 - Gabriel Victor Teles Cordeiro Damião
+  gabriel.damiao.1389156@sga.pucminas.br
  
 - Louise Santos Ribeiro
  louise.ribeiro@sga.pucminas.br
