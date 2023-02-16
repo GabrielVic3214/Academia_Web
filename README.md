@@ -12,7 +12,7 @@ Pensando nisso, o software Fit Life chega ao mercado pensando em você, gestor d
  
 - Louise Santos Ribeiro
  louise.ribeiro@sga.pucminas.br
-- Savio Luis Pontes Martuchelli
+- Smart TV Pontes Martuchelli
 savio.martuchelli@sga.pucminas.br
 - Willy Campos Costa
 1387169@sga.pucminas.br
