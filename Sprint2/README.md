@@ -1,7 +1,8 @@
 ## Sprint 2 - To Be vs AS-IS
 
-![image](https://user-images.githubusercontent.com/101759772/229936555-a5de99a8-3405-4d39-b574-1db52f626a6c.png)
+Apresentacao: 05/04/2023 - 20 pontos
 
+![WhatsApp Image 2023-04-04 at 19 38 21](https://user-images.githubusercontent.com/101759772/229937798-1863b7f2-b36a-4767-9704-e1fda746c0da.jpeg)
 
 ##################################################### Apresentação Sprint 2 #####################################################
 - Introdução e Nova Missão (Louise)
