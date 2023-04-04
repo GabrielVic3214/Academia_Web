@@ -4,7 +4,7 @@
 
 
 ##################################################### Apresentação Sprint 2 #####################################################
-- Introdução e nova missão (louiza)
+- Introdução e Nova Missão (Louise)
 - Modelo 1 AS-IS (Willy ou Ana)
 - Modelo 1 To-Be (Willy ou Ana)
 - Modelo 2 AS-IS  (Savio)
