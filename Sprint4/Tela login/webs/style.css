@@ -1,0 +1,133 @@
+.bordaOf{
+    border: 5px solid gray;
+}
+.bordaRodape{
+    background-color: orange;
+}
+
+/* BUTÃO E LOGO */
+.btnMain{
+    background: orange;
+    margin-right: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.boxBtn{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 35px;
+}
+.btnMain:hover{
+    background-color: #EA7C0F ;
+}
+
+/*----*/
+/* BOX SOBRE*/
+.boxSobre{
+    background-color: orange;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/*----*/
+/*Login*/
+.boxLogImg{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.boxInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 3px solid orange
+}
+.inputGroup {
+    display: flex;
+    flex-direction: column; /* Muda a direção para coluna */
+    align-items: center;
+  }
+.inputLogin{
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: #c8c7c9;
+    border: none;
+    max-width: 100%;
+}
+/*Imagem*/
+.imgAcademy{
+    background-image: url(img/Academia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+/*----*/
+/*Seja parçeiro*/
+.sejaParc{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.linkParc{
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    color: orange;
+    text-shadow: 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+}
+.linkParc:hover{
+    color: wheat;
+    text-shadow: 1px 1px orange, -1px -1px orange, -1px 1px orange, 1px -1px orange;
+
+}
+/*----*/
+/*Rodape*/
+.rodape{
+    padding-bottom: 8px;
+}
+.teste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Muda a direção para coluna */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.imagem{
+    background-image: url(img/txt1.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media only screen and (max-width: 576px){
+    .hidden{
+        display: none;
+    }
+    .center{
+        justify-content: center;
+    }
+    .boxInput{
+        border: none;
+    }
+}
