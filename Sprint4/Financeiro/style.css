@@ -1,0 +1,261 @@
+body {
+    background-color: rgba(234, 162, 41, 0.3);
+}
+
+.bkg {
+    border: 1px solid red;
+}
+
+
+.head {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: rgba(245, 203, 125, 0.8);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to right, #ffff 0,9%, #eaa229);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: serif;
+    font-size: 30px;
+}
+.fin{
+    text-shadow: -1px -1px 0 #f8e2be, 1px -1px 0 #f8e2be, -1px 1px 0 #f8e2be, 1px 1px 0 #f8e2be;
+}
+
+.foot {
+    height: 50px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: rgba(234, 162, 41, 0.3);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.align {
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(234, 162, 41, 0.1);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.7);
+}
+
+.grid {
+    margin: 10px 2px;
+    border: 3px solid #eaa229;
+    border-radius: 8px;
+    background-color: rgba(245, 203, 125, 0.5);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.7);
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure {
+    margin: 10px 0px;
+    width: 120px;
+}
+
+.txt p {
+    margin: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.txt .destq {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.button input {
+    background: rgb(100, 230, 100);
+    border-radius: 8px;
+    border: 1px solid green;
+    margin: 5px;
+    padding: 0 50px;
+    font-size: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.button input:hover {
+    background-color: rgb(237, 255, 237);
+    border: 1px solid rgb(113, 179, 16);
+    color: black;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-- 
+@@@@@@@@@@@@@@@@@@@@@@@
+@@@                 @@@
+@@@   Menu Lateral  @@@
+@@@                 @@@
+@@@@@@@@@@@@@@@@@@@@@@@   --*/
+
+
+.menu a {
+    text-decoration: none;
+}
+
+menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu,
+.menu .sidebar,
+.sidebar {
+    float: left;
+}
+
+.sidebar {
+    position: fixed;
+    width: 240px;
+    left: -240px;
+    height: 100%;
+    background: #eaa229;
+    transition: all 0.5s ease;
+    border-top: 2px solid #eaa229;
+    border-right: 2px solid #eaa229;
+}
+
+.sidebar header {
+    line-height: 172px;
+    text-align: center;
+    background: url(img/Logo.png);
+    background-size: cover;
+    user-select: none;
+    font-family: sans-serif;
+}
+
+.sidebar a {
+    display: block;
+    height: 65px;
+    width: 100%;
+    color: black;
+    line-height: 65px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-left: 5px solid transparent;
+    font-family: sans-serif;
+    transition: all 0.5s ease;
+}
+
+a.active,
+a:hover {
+    border-left: 5px solid #593632;
+    color: white;
+}
+
+.sidebar a i {
+    font-size: 23px;
+    margin-right: 16px;
+}
+
+.sidebar a span {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#check {
+    display: none;
+}
+
+label #btn,
+label #cancel {
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #eaa229;
+    padding-top: 5px;
+    margin: 17px 10px;
+    font-size: 28px;
+    background: #eaa229;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    transition: all .5s ease;
+}
+
+#check:checked~.sidebar {
+    left: 0;
+}
+
+#check:checked~label #btn {
+    margin-left: 245px;
+    /*opacity: 0;
+visibility: hidden;*/
+}
+
+@media(max-width: 860px) {
+    .sidebar {
+        height: auto;
+        width: 70px;
+        left: 0;
+        margin: 100px 0;
+    }
+
+    header,
+    #btn {
+        display: none;
+    }
+
+    span {
+        position: absolute;
+        margin-left: 23px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .sidebar a {
+        height: 60px;
+    }
+
+    .sidebar a i {
+        margin-left: -10px;
+    }
+
+    a:hover {
+        width: 240px;
+        background: inherit;
+    }
+
+    .sidebar a:hover span {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+
+/*-- 
+@@@@@@@@@@@@@@@@@@@@@@@
+@@@                 @@@
+@@@   FIM     MENU  @@@
+@@@                 @@@
+@@@@@@@@@@@@@@@@@@@@@@@   --*/
