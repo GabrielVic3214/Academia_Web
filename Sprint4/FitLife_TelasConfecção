@@ -1,0 +1,28 @@
+Telas para confecção 
+
+Geral
+1 - Home (Site inicial) 
+ OK
+8 - Cadastro de Usuário (Nova empresa)
+  Responsavel: Sávio
+
+Usuario Cliente
+
+9 - Tela de Financeiro
+ OK
+10 - Tela após login (Cliente) 
+ Responsavel: Ana
+11 - Tela de agendamentos
+12 - Tela de perfil (cliente)
+13 - Tela de exames
+
+Usuario Admin Academia
+
+1 - Cadastro de Cliente (Novo cliente da academia) 
+    Responsavel: Sávio
+2 - Tela de Cadastro de Ficha 
+3 - Tela Ativas por Cliente
+4 - Listagem de Clientes da Academia
+5 - Tela para adicionar novas modalidades 
+ Responsável: Gabriel 
+6 - Tela após login (Dono da academia) (com abas gerenciais)
