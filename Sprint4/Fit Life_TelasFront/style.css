@@ -1,6 +1,7 @@
 
 body {
-	background-color: #fafafa;
+	background-color: #e9e9e9;
+
 }
 
 .bolinha {
@@ -162,24 +163,92 @@ body {
     top: -7px;
     
   }
-  .icone-sair {
-    position: fixed;
-    right: 10px;
-    top: 10px;
-    z-index: 999;
-    width: 30px;
-    height: 30px;
-    background-color: #FFF;
-    border-radius: 50%;
-    display: flex;
+  .foot {
+    height: 60px;
+    width: 100%;
+    margin-top: 30px;
+    background-color:rgba(245, 203, 125, 0.8);
+    text-align: center;
     align-items: center;
     justify-content: center;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  }
-  
-  .icone-sair i {
-    color: #000;
-    font-size: 20px;
-  }
+    display: flex;
 }
 
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:rgba(245, 203, 125, 0.8);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgba(245, 203, 125, 0.8);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(255, 255, 255);
+}
+
+.button:hover {background-color: #000000}
+
+.button:active {
+  background-color:  #000000;
+  box-shadow: 0 5px rgb(255, 255, 255);
+  transform: translateY(4px);
+}
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  float: left;
+}
+
+nav li.right {
+  float: right;
+  margin-right: 30px;
+}
+
+nav a {
+  display: flex;
+  align-items: right;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color:rgba(245, 203, 125, 0.8);;
+  color:rgba(255, 252, 246, 0.8);;
+}
+
+nav i {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+}
