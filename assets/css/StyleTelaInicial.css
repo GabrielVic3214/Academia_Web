@@ -7,7 +7,7 @@ body {
 	position: absolute;
 	width: 90px;
 	height: 90px;
-	background-color:rgba(245, 203, 125, 0.8);;
+	background-color:rgba(245, 203, 125, 0.8);
 	border-radius: 50%;
 	animation: flutuar 3s ease-in-out infinite;
 }

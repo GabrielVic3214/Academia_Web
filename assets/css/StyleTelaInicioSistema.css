@@ -1,120 +1,122 @@
-.bordaOf{
-    border: 5px solid gray;
+.container-fluid{
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-left: 9% !important;
+    padding-right: 9% !important;
+    color: rgb(46, 46, 46) !important;
+    background-color:rgba(255, 226, 186, 0.8);
+    font-family: Comic Sans MS, Comic Sans;
 }
-.bordaRodape{
-    background-color: orange;
+.corFundo{
+    background-color:rgba(245, 203, 125, 0.8);
+    box-shadow: 0px 12px 14px rgba(0, 0, 0, 0.216);
 }
-
-/* BUTÃO E LOGO */
-.btnMain{
+.sombra{
+    box-shadow: 0px 22px 24px rgba(0, 0, 0, 0.501);
+    background-color:rgba(255, 252, 221, 0.8);
+}
+.centerAll{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.centerAllContent{
+    padding-right: 25% !important;
+    padding-left: 25% !important;
+}
+.sobreNos{
+    padding: 50px;
+    text-align: center;
+}
+.sobreNos p{
+    padding-right: 25%;
+    padding-left: 25%;
+}
+.logo{
+    text-align: center;
+}
+.logo button{
+    width: 25%;
+    margin: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
     background: orange;
-    margin-right: 10px;
-    padding: 5px 10px 5px 10px;
-    border-radius: 8px;
-    border: 2px solid black;
+}
+.logo h3{
+    margin-top: 10%;
+    display: blorgb(183, 108, 11)
+}
+.areaLogin{
+    margin:0 30%;
+    font-weight: bold;
+}
+.areaLogin input{
+    box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.8);
+}
+.areaLogin button{
+    background: orange;
+    box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.8);
+}
+.imgAreaLogin img{
+    width: 102% !important;
+}
+#login{
+    text-align: center; 
+    margin: 30px 0;
+}
+.nossosNumeros{
+    padding: 0 15%;
+    text-align: center;
+}
+.nossosNumeros h3{
+    text-align: center; 
+    margin: 30px 20px;
+}
+.dot {
+    margin-left: 50px;
+    height: 120px;
+    width: 120px;
+    border: 3px solid rgb(0, 238, 255);
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot p {
+    text-align: center;
+    vertical-align: middle;
+    font-size: xxx-large;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.descricaoNumeros{
+    text-align: center;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+#sejaParceiro{
+    text-align: center;
+    padding: 5% 25%;
+    font-size: x-large;
+}
+#sejaParceiro button{
+    width: 25%;
+    margin: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+    background: orange;
 }
-.boxBtn{
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    margin-bottom: 35px;
+.contato{
+    text-align: left;
+    margin: 35px 0;
+    padding-left: 20%;
 }
-.btnMain:hover{
-    background-color: #EA7C0F ;
+.horario{
+    margin: 35px 0;
+    padding-left: 8%;
+    padding-right: 20%;
 }
-
-/*----*/
-/* BOX SOBRE*/
-.boxSobre{
-    background-color: orange;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+footer{
+    text-align: center;
+    font-weight: bold;
+    padding: 2% 15%;
 }
-
-/*----*/
-/*Login*/
-.boxLogImg{
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.boxInput{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-right: 3px solid orange
-}
-.inputGroup {
-    display: flex;
-    flex-direction: column; /* Muda a direção para coluna */
-    align-items: center;
-  }
-.inputLogin{
-    margin-bottom: 10px;
-    border-radius: 8px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
-    background-color: #c8c7c9;
-    border: none;
-    max-width: 100%;
-}
-/*Imagem*/
-.imgAcademy{
-    background-image: url(img/Academia.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-}
-
-/*----*/
-/*Seja parçeiro*/
-.sejaParc{
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.linkParc{
-    font-size: 25px;
-    font-family: "Times New Roman", Times, serif;
-    color: orange;
-    text-shadow: 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
-}
-.linkParc:hover{
-    color: wheat;
-    text-shadow: 1px 1px orange, -1px -1px orange, -1px 1px orange, 1px -1px orange;
-
-}
-/*----*/
-/*Rodape*/
-.rodape{
-    padding-bottom: 8px;
-}
-.teste{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; /* Muda a direção para coluna */
-}
-
-.imagem{
-    background-image: url(img/txt1.jpg);
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@media only screen and (max-width: 576px){
-    .hidden{
-        display: none;
-    }
-    .center{
-        justify-content: center;
-    }
-    .boxInput{
-        border: none;
-    }
+#contato b{
+    color: rgb(188, 97, 0);
 }
