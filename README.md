@@ -1,5 +1,5 @@
 # Fit_Life
 # Comando para clonar branch 
-## git branch -b "nome da branch" "url repositorio"
+## git clone -b branchname remote-repo-url
 
   
