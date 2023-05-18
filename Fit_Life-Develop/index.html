@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/StyleTelaInicioSistema.css">
+    <title>Fit Life</title>
+</head>
+
+<body>
+    <!--head-->
+    <div id="alertaLogin" class="alert alert-danger displayNone">
+        <strong>Acesso negado!</strong> usuário ou senha incorretos.
+    </div>
+    <div class="container-fluid">  
+        <div class="row corFundo logo">
+            <div class="col-12 col-lg-6">
+                <img src="assets/imgs/Logo.png" alt="logo">
+            </div>
+            <div class="col-12 col-lg-6 logo">
+                <h3>Tudo para sua academia em um so lugar</h3>
+                <a href="#login"><button type="button" class="btn">Login</button></a>
+                <a href="#sejaParceiro"><button type="button" class="btn">Parceiro</button></a>
+                <a href="#contato"><button type="button" class="btn">Contato</button></a>
+            </div>
+        </div>
+        <!--Sobre nós-->
+        <div class="row sobreNos sombra">
+            <h3>Sobre nos</h3>
+            <p class="centerAllContent">
+                Visamos satisfazer completamente nossos clientes, parceiros e colaboradores por meio de inovação, melhoria contínua e um relacionamento 
+                próximo, transparente e de confiança mútua.
+            </p>
+        </div>
+        <!--Login e imagem-->
+        <div class="row corFundo">
+            <!--Login-->
+            <div class="col-12 col-lg-6">
+                <h2 id="login">Login</h2>
+                <div class="areaLogin">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Usuário</label>
+                        <input type="text" class="form-control" id="userLogin" placeholder="Digite seu nome">
+                      </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Senha</label>
+                        <input type="password" class="form-control" id="senhaLogin" placeholder="Digite sua senha">
+                    </div>
+                    <div id="btnLogin">
+                        <button type="button" onclick="logar()" class="btn">Logar</button>
+                    </div>
+                </div>
+            </div>
+            <!--Imagem-->
+            <div class="col-12 col-lg-6" >
+                <div class="imgAreaLogin">
+                    <img src="assets/imgs/Academia2.jpg">
+                </div>
+            </div>
+        </div>
+        <!--Veja nossos numeros-->
+        <div class="row sombra nossosNumeros">
+            <h3>Veja nosso impacto no desempenho em seis meses</h3>
+            <div class="col-12 col-lg-4">
+                <span class="dot">
+                    <p>35%</p>
+                </span>
+                <p class="descricaoNumeros">de aumento no faturamento</p>
+            </div>
+            <div class="col-12 col-lg-4">
+                <span class="dot">
+                    <p>21%</p>
+                </span><br/>
+                <p class="descricaoNumeros">de aumento em ativos</p>
+            </div>
+            <div class="col-12 col-lg-4">
+                <span class="dot">
+                    <p>47%</p>
+                </span><br/>
+                <p class="descricaoNumeros">de ganho em otimização de serviços</p>
+            </div>
+        </div>
+        <!--Seja um parceiro-->
+        <div id="sejaParceiro" class="row corFundo centerAllContent">        
+                <p>Seu cliente pode fazer tanto a inscrição, quanto a renovação ou mesmo reativação de planos, 
+                    sem burocracia ou filas, e de forma totalmente segura e digital.</p>
+                    <a href="FormParceiro.html"><button type="button" class="btn">Seja um parceiro</button></a>
+        </div>
+        <!--Rodapé-->
+            <div id="contato" class="row sombra">
+                <div class="col-12 col-lg-6 contato">
+                    <h3>Contatos</h3>
+                    <p><b>Email: </b>suporte@fitlife.br</p>
+                    <p><b>Telefone: </b>(31) 98187-1154</p>
+                </div>
+                <div class="col-12 col-lg-6 horario">
+                    <h3> Horário de funcionamento</h3>
+                    <p><b>Seg a Sex </b>das 6h às 22h</p>
+                    <p><b>Sábados </b>das 8h às 18h</p>
+                    <p><b>Domingos e feriados </b>das 10h às 14h</p>
+                </div>
+            </div>
+            <div class="row corFundo">
+                <footer>Copyright © 2023. All Rights Reserved By Fit Life</footer>
+            </div>
+    </div>
+
+    <!--scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
