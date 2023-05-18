@@ -7,22 +7,7 @@
     box-shadow: 0px 22px 24px rgba(0, 0, 0, 0.501);
     background-color:rgba(255, 252, 221, 0.8);
 }
-.centerAll{
-    padding-right: 15%;
-    padding-left: 15%;
-}
-.centerAllContent{
-    padding-right: 25% !important;
-    padding-left: 25% !important;
-}
-.sobreNos{
-    padding: 50px;
-    text-align: center;
-}
-.sobreNos p{
-    padding-right: 25%;
-    padding-left: 25%;
-}
+
 .logo{
     text-align: center;
 }
@@ -30,7 +15,6 @@
     max-width: 100%;
 }
 .logo button{
-    width: 25%;
     margin: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
     background: orange;
@@ -38,13 +22,6 @@
 .logo button:hover {
     background: rgb(255, 183, 40);
     color: rgb(46, 46, 46) !important;
-}
-.logo h3{
-    margin-top: 10%;
-    display: blorgb(183, 108, 11)
-}
-.logoBtn button{
-    width: 100%;
 }
 .areaLogin{
     margin:0 30%;
@@ -72,35 +49,6 @@
     background: rgb(255, 183, 40);
     color: rgb(46, 46, 46) !important;
 }
-.nossosNumeros{
-    padding: 0 15%;
-    text-align: center;
-}
-.nossosNumeros h3{
-    text-align: center; 
-    margin: 30px 20px;
-}
-.dot {
-    margin-left: 50px;
-    height: 120px;
-    width: 120px;
-    border: 3px solid rgb(0, 238, 255);
-    border-radius: 50%;
-    display: inline-block;
-}
-.dot p {
-    text-align: center;
-    vertical-align: middle;
-    font-size: xxx-large;
-    margin-top: 15px;
-    font-weight: bold;
-}
-.descricaoNumeros{
-    text-align: center;
-    font-weight: bold;
-    margin-left: 50px;
-    padding-bottom: 30px;
-}
 #sejaParceiro{
     text-align: center;
     padding: 5% 25%;
@@ -116,16 +64,7 @@
     background: rgb(255, 183, 40);
     color: rgb(46, 46, 46) !important;
 }
-.contato{
-    text-align: left;
-    margin: 35px 0;
-    padding-left: 20%;
-}
-.horario{
-    margin: 35px 0;
-    padding-left: 8%;
-    padding-right: 20%;
-}
+
 footer{
     text-align: center;
     font-weight: bold;
@@ -133,6 +72,17 @@ footer{
 }
 #contato b{
     color: rgb(188, 97, 0);
+}
+#sejaParceiro button{
+    width: 50%;
+}
+.alert{
+    position: fixed;
+    width: 50%;
+    margin: 30px 20% 0 25%;
+}
+.displayNone{
+    display: none;
 }
 @media screen and (min-width: 770px) {
     .container-fluid{
@@ -142,6 +92,65 @@ footer{
         padding-right: 18% !important;
         color: rgb(46, 46, 46) !important;
         background-color:rgba(255, 226, 186, 0.8);
+    }
+    .logo h3{
+        margin-top: 80px;
+        display: blorgb(183, 108, 11)
+    }
+    .sobreNos p{
+        padding-right: 25%;
+        padding-left: 25%;
+    }
+    .centerAll{
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+    .centerAllContent{
+        padding-right: 25% !important;
+        padding-left: 25% !important;
+    }
+    .sobreNos{
+        padding: 50px;
+        text-align: center;
+    }
+    .dot {
+        margin-left: 50px;
+        height: 120px;
+        width: 120px;
+        border: 3px solid rgb(0, 238, 255);
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .dot p {
+        text-align: center;
+        vertical-align: middle;
+        font-size: xxx-large;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+    .descricaoNumeros{
+        text-align: center;
+        font-weight: bold;
+        margin-left: 50px;
+        padding-bottom: 30px;
+    }
+    .nossosNumeros{
+        padding: 0 15%;
+        text-align: center;
+    }
+    .nossosNumeros h3{
+        text-align: center; 
+        margin: 30px 20px;
+    }
+    .contato{
+        text-align: left;
+        margin: 35px 0;
+        padding-left: 20%;
+    }
+    .horario{
+        margin: 35px 0;
+        padding-left: 8%;
+        padding-right: 20%;
     }
 }
 @media screen and (max-width: 768px) {
@@ -153,5 +162,79 @@ footer{
     }
     .imgAreaLogin img{
         width: 102% !important;
+    }
+    .logo h3{
+        display: blorgb(183, 108, 11)
+    }
+    .logo button{
+        margin-bottom: 40px;
+    }
+    .sobreNos p{
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+    .centerAll{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .centerAllContent{
+        padding-right: 10% !important;
+        padding-left: 10% !important;
+    }
+    .sobreNos{
+        padding: 20px;
+        text-align: center;
+    }
+    .imgAreaLogin{
+        display: none;
+    }
+    .dot {
+        margin-left: 5px;
+        height: 120px;
+        width: 120px;
+        border: 3px solid rgb(0, 238, 255);
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .dot p {
+        text-align: center;
+        vertical-align: middle;
+        font-size: xxx-large;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+    .descricaoNumeros{
+        text-align: center;
+        font-weight: bold;
+        margin-left: 10px;
+        padding-bottom: 30px;
+    }
+    .nossosNumeros{
+        padding: 0 5%;
+        text-align: center;
+    }
+    .nossosNumeros h3{
+        text-align: center; 
+        margin: 20px 10px;
+    }
+    .contato{
+        text-align: center;
+        margin: 15px 0;
+    }
+    .horario{
+        text-align: center;
+        margin: 15px 0;
+    }
+    #btnLogin{
+        text-align: center !important;
+    }
+}
+@media screen and (min-width: 770px) and (max-width: 980px) {
+    .logo h3{
+        margin-top: 15px !important;
+        display: blorgb(183, 108, 11)
+    }
+    .logo button{
+        margin-bottom: 35px;
     }
 }

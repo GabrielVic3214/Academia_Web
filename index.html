@@ -13,8 +13,11 @@
 
 <body>
     <!--head-->
-    <div class="container-fluid">
-        <div class="row corFundo centerAll logo">
+    <div id="alertaLogin" class="alert alert-danger displayNone">
+        <strong>Acesso negado!</strong> usuário ou senha incorretos.
+    </div>
+    <div class="container-fluid">  
+        <div class="row corFundo logo">
             <div class="col-12 col-lg-6">
                 <img src="assets/imgs/Logo.png" alt="logo">
             </div>
@@ -41,14 +44,14 @@
                 <div class="areaLogin">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Usuário</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome">
+                        <input type="text" class="form-control" id="userLogin" placeholder="Digite seu nome">
                       </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Senha</label>
-                        <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Digite sua senha">
+                        <input type="password" class="form-control" id="senhaLogin" placeholder="Digite sua senha">
                     </div>
                     <div id="btnLogin">
-                        <button type="button" class="btn">Logar</button>
+                        <button type="button" onclick="logar()" class="btn">Logar</button>
                     </div>
                 </div>
             </div>
@@ -113,6 +116,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
         integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
         crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>

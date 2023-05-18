@@ -50,10 +50,10 @@ h2 {
 
 .grid {
     margin: 10px 2px;
-    border: 3px solid rgba(245, 203, 125, 0.8);
+    border: 3px solid  rgba(0, 0, 0, 0.4);
     border-radius: 8px;
-    background-color: rgba(245, 203, 125, 0.5);
-    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.7);
+    background-color: rgb(95, 94, 94);
+    box-shadow: 0 5px 6px  rgba(0, 0, 0, 0.4);
 }
 
 .img {
@@ -85,19 +85,20 @@ h2 {
 }
 
 .button input {
-    background: rgb(100, 230, 100);
+    background: rgba(27, 27, 26, 0.329);
     border-radius: 8px;
-    border: 1px solid green;
-    margin: 5px;
+    border: 1px solid rgb(255, 251, 3);
+    margin: 9px;
     padding: 0 50px;
-    font-size: 20px;
+    font-size: 18px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    color: #f7f5f3;
 }
 
 .button input:hover {
     background-color: rgb(0, 0, 0);
-    border: 1px solid rgb(113, 179, 16);
-    color: black;
+    border: 1px solid rgb(255, 238, 0);
+    color: rgb(255, 230, 0);
     transition: all 0.3s ease;
 }
 .chat-icon {
