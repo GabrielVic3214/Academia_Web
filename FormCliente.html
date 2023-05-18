@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/StyleFormCliente.css">
+    <title>Formulario Cliente</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="title">Cadastro de aluno</div>
+            <form action="#">
+                <div class="UserDetails">
+                    <div class="inputbox">
+                        <span class="details">Nome do clientes</span>
+                        <input class="inputdetails" type="text" placeholder="Nome" required>
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Sobrenome</span>
+                        <input class="inputdetails" type="datetime" placeholder="Sobrenome" required>
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Idade</span>
+                        <input class="inputdetails" type="number" placeholder="Idade" required>
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Email</span>
+                        <input class="inputdetails" type="email" placeholder="email" required>
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Telefone</span>
+                        <input class="inputdetails" type="tel" placeholder="()_____-____" required>
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Telefone para emergencia</span>
+                        <input class="inputdetails" type="tel" placeholder="()_____-____" required>
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Cpf</span>
+                        <input class="inputdetails" type="text" placeholder="___.___.___.__" required>
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Cep</span>
+                        <input class="inputdetails" id="cep" type="tel" placeholder="Cep" required>
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Bairro</span>
+                        <input class="inputdetails" id="bairro" type="tel" readonly required>
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Estado</span>
+                        <input class="inputdetails" id="estado" type="tel" readonly required>
+                    </div>            
+                    <div class="inputbox">
+                        <span class="details">Cidade</span>
+                        <input class="inputdetails" id="cidade" type="tel" readonly required>
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Rua</span>
+                        <input class="inputdetails" id="rua" type="tel" readonly required>
+                    </div>
+                </div>
+                <div class="gender-detail">
+                    <input type="radio" name="gender" id="dot-1">
+                    <input type="radio" name="gender" id="dot-2">
+                    <span class="gender-title">Genero</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Maculino</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Feminino</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="register">
+                </div>
+        </form> 
+    </div>
+    <script src="assets/js/ScriptFormCliente.js"></script>
+</body>
+</html>
