@@ -1,13 +1,13 @@
 
 .corFundo{
-    background-color:rgba(245, 203, 125, 0.8);
+    color: rgb(255, 222, 157);
+    background-color:rgba(61, 52, 35, 0.8);
     box-shadow: 0px 12px 14px rgba(0, 0, 0, 0.216);
 }
 .sombra{
     box-shadow: 0px 22px 24px rgba(0, 0, 0, 0.501);
-    background-color:rgba(255, 252, 221, 0.8);
+    background-color:rgb(218, 190, 133);
 }
-
 .logo{
     text-align: center;
 }
@@ -17,11 +17,12 @@
 .logo button{
     margin: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
-    background: orange;
+    background: rgba(80, 63, 45, 0.8);
+    color: wheat;
 }
 .logo button:hover {
-    background: rgb(255, 183, 40);
-    color: rgb(46, 46, 46) !important;
+    background: rgb(46, 46, 46) !important;
+    color: wheat;
 }
 .areaLogin{
     margin:0 30%;
@@ -31,8 +32,13 @@
     box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.8);
 }
 .areaLogin button{
-    background: orange;
-    box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+    background: rgba(80, 63, 45, 0.8);
+    color: wheat;
+}
+.areaLogin button:hover {
+    background: rgb(46, 46, 46) !important;
+    color: wheat;
 }
 .imgAreaLogin img{
     width: 102% !important;
@@ -45,10 +51,6 @@
 #btnLogin{
     margin: 25px 0;
 }
-.areaLogin button:hover {
-    background: rgb(255, 183, 40);
-    color: rgb(46, 46, 46) !important;
-}
 #sejaParceiro{
     text-align: center;
     padding: 5% 25%;
@@ -58,20 +60,20 @@
     width: 25%;
     margin: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
-    background: orange;
+    background: rgba(80, 63, 45, 0.8);
+    color: wheat;
 }
 #sejaParceiro button:hover {
-    background: rgb(255, 183, 40);
-    color: rgb(46, 46, 46) !important;
+    background: rgb(46, 46, 46) !important;
+    color: wheat;
 }
-
 footer{
     text-align: center;
     font-weight: bold;
     padding: 2% 15%;
 }
 #contato b{
-    color: rgb(188, 97, 0);
+    color:rgb(90, 47, 24);
 }
 #sejaParceiro button{
     width: 50%;
@@ -90,8 +92,8 @@ footer{
         margin: 0 !important;
         padding-left: 18% !important;
         padding-right: 18% !important;
-        color: rgb(46, 46, 46) !important;
-        background-color:rgba(255, 226, 186, 0.8);
+        color: rgb(40, 34, 33) !important;
+        background-color:rgba(69, 56, 48, 0.8);
     }
     .logo h3{
         margin-top: 80px;
@@ -115,9 +117,9 @@ footer{
     }
     .dot {
         margin-left: 50px;
-        height: 120px;
-        width: 120px;
-        border: 3px solid rgb(0, 238, 255);
+        height: 140px;
+        width: 140px;
+        border: 10px solid rgb(107, 48, 11);
         border-radius: 50%;
         display: inline-block;
     }
@@ -125,7 +127,7 @@ footer{
         text-align: center;
         vertical-align: middle;
         font-size: xxx-large;
-        margin-top: 15px;
+        margin-top: 20px;
         font-weight: bold;
     }
     .descricaoNumeros{
