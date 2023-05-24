@@ -27,3 +27,18 @@ window.onload = function(){
     let txtcep =  document.getElementById('txtcep')
     txtcep.addEventListener("blur", BuscaCep)
 }
+
+$(document).ready(function() {
+    // Mascara do cnpj
+    $('#cnpj-mask').mask('00.000.000/0000.00')
+    $('#cnpj-mask').attr('placeholder', '__.___.___/____.__')
+
+    // Mascara do Telefone
+    $("#tel").mask('(00) 00000-0000')
+    $('#tel').attr('placeholder', '(00) 00000-0000')
+
+    // Mascara do cpf
+    $('#txtcep').mask('00000-000')
+    $('#txtcep').attr('placeholder', '_____-___')
+
+})

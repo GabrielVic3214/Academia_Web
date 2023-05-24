@@ -28,3 +28,19 @@ window.onload = function(){
     let txtcep =  document.getElementById('cep')
     txtcep.addEventListener("blur", BuscaCep)
 }
+
+$(document).ready(function() {
+    //Mascara De Telefones
+    $("#tel").mask('(00) 00000-0000')
+    $('#tel').attr('placeholder', '(00) 00000-0000')
+    $("#tel2").mask('(00) 00000-0000')
+    $('#tel2').attr('placeholder', '(00) 00000-0000')
+
+    // Mascara De cpf
+    $("#cpf-mask").mask('000.000.000-00')
+    $('#cpf-mask').attr('placeholder', '000.000.000-00')
+
+    //Mascara De Cep
+    $("#cep").mask('00000-000')
+    $('#cep').attr('placeholder', '00000-000')
+})
