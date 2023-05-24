@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/StyleFormCliente.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <title>Formulario Cliente</title>
 
 </head>
@@ -31,19 +33,19 @@
                     </div>
                     <div class="inputbox">
                         <span class="details">Telefone</span>
-                        <input class="inputdetails" type="tel" placeholder="()_____-____" required>
+                        <input id="tel" class="inputdetails" type="tel" required>
                     </div>
                     <div class="inputbox">
                         <span class="details">Telefone para emergencia</span>
-                        <input class="inputdetails" type="tel" placeholder="()_____-____" required>
+                        <input id="tel2" class="inputdetails" type="tel" required>
                     </div>
                     <div class="inputbox">
                         <span class="details">Cpf</span>
-                        <input class="inputdetails" type="text" placeholder="___.___.___.__" required>
+                        <input id="cpf-mask" class="inputdetails" type="text" required>
                     </div>
                     <div class="inputbox">
                         <span class="details">Cep</span>
-                        <input class="inputdetails" id="cep" type="tel" placeholder="Cep" required>
+                        <input class="inputdetails" id="cep" type="tel"  required>
                     </div>
                     <div class="inputbox">
                         <span class="details">Bairro</span>
