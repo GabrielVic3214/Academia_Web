@@ -19,3 +19,4 @@ function alertOn(){
     document.getElementById("alertaLogin").classList.remove("displayNone")
     setTimeout(alertOff, 3000);
 }
+

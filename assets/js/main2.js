@@ -1,18 +1,6 @@
-/**
- * main2.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2014, Codrops
- * http://www.codrops.com
- */
 (function() {
 
-	/**
-	 * based on from https://github.com/inuyaksa/jquery.nicescroll/blob/master/jquery.nicescroll.js
-	 */
+	
 	function hasParent( e, p ) {
 		if (!e) return false;
 		var el = e.target||e.srcElement||e||false;
@@ -52,7 +40,6 @@
 			closebtnsub.addEventListener( 'click', toggleSubMenu );
 		}
 
-		// close the menu element if the target it´s not the menu element or one of its descendants..
 		document.addEventListener( 'mousedown', function(ev) {
 			var target = ev.target;
 			

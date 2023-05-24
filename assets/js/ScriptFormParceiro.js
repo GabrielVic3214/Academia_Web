@@ -42,3 +42,8 @@ $(document).ready(function() {
     $('#txtcep').attr('placeholder', '_____-___')
 
 })
+
+function Sucesso(){
+    window.location.href = "index.html"
+    alert("Cadastro realizado com sucesso");
+}

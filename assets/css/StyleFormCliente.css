@@ -133,3 +133,10 @@ form input[type="radio"]{
     color: #fff;
     margin: 20px 0 0 0;
 }
+
+@media (min-width: 576px) {
+    .container{
+        min-width: 700px;
+        min-height: 700px;
+    }
+}
