@@ -7,14 +7,10 @@ h2 {
     padding: 15px;
     text-align: center;
   }
-
-h1{
-    color:  rgba(245, 203, 125, 0.8);
-}
-  
 .bkg {
-    border: 1px solid red;
+    border: 1px solid rgb(179, 179, 179);
 }
+
 
 
 .head {
@@ -125,12 +121,7 @@ h1{
 @@@                 @@@
 @@@@@@@@@@@@@@@@@@@@@@@   --*/
 
-.container-fluid {
-    margin: 0 auto;
-    padding: 0 !important;
-    margin: 0 !important;
-    background: #4d4d4d;
-}
+
 .menu a {
     text-decoration: none;
 }

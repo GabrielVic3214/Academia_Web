@@ -1,0 +1,39 @@
+.calendar {
+    max-width: 0 auto;
+    margin: 0 auto;
+    background-color: rgb(59, 59, 59);
+    padding: 80px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: large;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .time-slots {
+    border-left: 2px solid #ddd;
+    padding-left: 10px;
+  }
+  
+  .time-slot {
+    margin-bottom: 10px;
+  }
+  
+  .time {
+    font-weight: bold;
+  }
+  
+  .event {
+    margin-left: 10px;
+  }
+  
+  .event::before {
+    content: "\2022";
+    color: #4285F4;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  

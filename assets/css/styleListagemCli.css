@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 h2 {
@@ -8,13 +8,40 @@ h2 {
     text-align: center;
   }
 
-h1{
-    color:  rgba(245, 203, 125, 0.8);
-}
+  .edit-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+  }
   
-.bkg {
-    border: 1px solid red;
-}
+  .edit-icon:before,
+  .edit-icon:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 15px;
+    background-color: rgb(0, 255, 34);
+    transform-origin: bottom;
+  }
+
+  .delete-icon {
+    width: 16px;
+    height: 16px;
+    background-color: red;
+  }
+  
+  
+  .edit-icon:before {
+    left: 7px;
+    transform: rotate(-45deg);
+  }
+  
+  .edit-icon:after {
+    right: 7px;
+    transform: rotate(45deg);
+  }
 
 
 .head {
@@ -65,6 +92,10 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+table {
+    text-align: center;
+    color: #f7f5f3;
 }
 
 .figure {
@@ -125,12 +156,7 @@ h1{
 @@@                 @@@
 @@@@@@@@@@@@@@@@@@@@@@@   --*/
 
-.container-fluid {
-    margin: 0 auto;
-    padding: 0 !important;
-    margin: 0 !important;
-    background: #4d4d4d;
-}
+
 .menu a {
     text-decoration: none;
 }

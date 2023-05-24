@@ -1,19 +1,40 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+ }
+
+ .card {
+    width: 300px;
+    height: 200px;
+    /* Outras propriedades de estilo */
+    float: center;
+    background-color :rgba(180, 180, 180, 0.541)!important;
+    
+} 
+.btn{
+    background-color : rgba(245, 203, 125, 0.856)!important;
+    color : rgba(0, 0, 0, 0.856)!important;
+
+
+
+}
+
+ .container-fluid {
+    margin: 0 auto;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: #4d4d4d;
+}
+
 body {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-h2 {
-    background-color: rgba(245, 203, 125, 0.8);
-    padding: 15px;
-    text-align: center;
-  }
-
-h1{
-    color:  rgba(245, 203, 125, 0.8);
-}
   
 .bkg {
-    border: 1px solid red;
+    border: 1px solid rgb(165, 161, 161);
 }
 
 
@@ -76,6 +97,7 @@ h1{
     margin: 0;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 .txt .destq {
