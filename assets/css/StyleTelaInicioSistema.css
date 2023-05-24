@@ -17,11 +17,11 @@
 .logo button{
     margin: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
-    background: rgba(80, 63, 45, 0.8);
+    background: rgba(124, 96, 65, 0.8);
     color: wheat;
 }
 .logo button:hover {
-    background: rgb(46, 46, 46) !important;
+    background: rgb(61, 52, 47) !important;
     color: wheat;
 }
 .areaLogin{
@@ -33,11 +33,11 @@
 }
 .areaLogin button{
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
-    background: rgba(80, 63, 45, 0.8);
+    background: rgba(124, 96, 65, 0.8);
     color: wheat;
 }
 .areaLogin button:hover {
-    background: rgb(46, 46, 46) !important;
+    background: rgb(61, 52, 47) !important;
     color: wheat;
 }
 .imgAreaLogin img{
@@ -60,11 +60,11 @@
     width: 25%;
     margin: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
-    background: rgba(80, 63, 45, 0.8);
+    background: rgba(124, 96, 65, 0.8);
     color: wheat;
 }
 #sejaParceiro button:hover {
-    background: rgb(46, 46, 46) !important;
+    background: rgb(61, 52, 47) !important;
     color: wheat;
 }
 footer{

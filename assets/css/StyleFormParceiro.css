@@ -11,13 +11,16 @@ body {
     padding: 10px;
     justify-content: center;
     align-items: center;
-    background-color: rgba(245, 203, 125, 0.8);
+    background-image: url(../imgs/fundoCadAluno.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .container{
     max-width: 700px;
     width: 100%;
-    background-color: white;
+    background-color: rgba(255, 246, 238, 0.674);
     padding: 25px 30px;
     border-radius: 10px;
 }
@@ -112,15 +115,16 @@ form input[type="radio"]{
 
 form .button{
     height: 45px;
-    margin: 45px 0;
+    margin: 20px 0 0 0;
+    text-align: center;
 }
 
 form .button input{
     height: 100%;
-    width: 100%;
+    width: 80%;
     outline: none;
     color: #0a0909;
-    background-color: rgba(245, 203, 125, 0.8);
+    background-color: rgb(161, 137, 129);
     font-size: 18px;
     border-radius: 8px;
     font-weight: 500;
