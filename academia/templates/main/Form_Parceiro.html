@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style_form_parceiro.css' %}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Cadastro de Parceiro</div>
+        <form method="POST">
+         {% csrf_token %}
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Nome Empresarial</span>
+                    {{form.NomEmp}}
+                </div>
+                <div class="input-box">
+                    <span class="details">Nome Fantasia</span>
+                   {{form.NomFantasia}}
+                </div>
+                <div class="input-box">
+                    <span class="details">Cnpj</span>
+                    {{form.cnpj}}
+                </div>
+                <div class="input-box">
+                    <span class="details">Telefone</span>
+                    {{form.telefone}}
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                   {{form.email}}
+                </div>
+                <div class="input-box">
+                    <span for="txtcep" class="details">Cep</span>
+                    {{form.cep}}
+                </div>
+                <div class="input-box">
+                    <span for="txtend" class="details">Estado</span>
+                    {{form.estado}}
+                </div>
+                <div class="input-box">
+                    <span class="details">Rua</span>
+                    {{form.rua}}
+                </div>
+                <div class="input-box">
+                    <span class="details">Bairro</span>
+                    {{form.bairro}}
+                </div>
+                <div class="input-box">
+                    <span class="details">Senha</span>
+                    {{form.senha}}
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Cadastrar">
+            </div>
+                <div class="button">
+                    <a href="{% url 'index' %}"><input type="button" value="Voltar"></a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="{% static 'js/script_form_Parceiro.js' %}"></script>
+</body>
+</html>

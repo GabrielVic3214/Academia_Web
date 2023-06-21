@@ -1,0 +1,91 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style_form_cliente.css' %}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <title>Formulario Cliente</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="title">Editando aluno</div>
+            <form method="POST">
+            {% csrf_token %}
+                <div class="UserDetails">
+                    <div class="inputbox">
+                        <span class="details">Nome do clientes</span>
+                        {{form.nome}}
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Sobrenome</span>
+                        {{form.sobrenome}}
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Idade</span>
+                        {{form.idade}}
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Email</span>
+                        {{form.Email}}
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Telefone</span>
+                        {{form.tel1}}
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Telefone para emergencia</span>
+                        {{form.tel2}}
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Cpf</span>
+                        {{form.cpf}}
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Cep</span>
+                        {{form.cep}}
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Bairro</span>
+                        {{form.Bairro}}
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Estado</span>
+                        {{form.Estado}}
+                    </div>            
+                    <div class="inputbox">
+                        <span class="details">Cidade</span>
+                        {{form.Cidade}}
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">Rua</span>
+                        {{form.Rua}}
+                    </div>
+                </div>
+                <div class="gender-detail">
+                    <input type="radio" name="gender" id="dot-1">
+                    <input type="radio" name="gender" id="dot-2">
+                    <span class="gender-title">Genero</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Maculino</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Feminino</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit" class="btn">Editar</button>
+                    <a href="{% url 'menu_admin' %}"><button type="button" class="btn">Voltar</button></a>
+                </div>
+        </form> 
+    </div>
+</body>
+</html>
