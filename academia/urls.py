@@ -14,5 +14,7 @@ urlpatterns = [
     path('delete/<int:id>', views.deletelist, name="delete-cadastro"),
     path('financeiro_cliente', views.financeiro_cliente, name="financeiro_cliente"),
     path('modalidades', views.modalidades, name='modalidades'),
-    path('cadastro_modalidade', views.cadastroModalidade, name='cadastro_modalidade')
+    path('cadastro_modalidade', views.cadastroModalidade, name='cadastro_modalidade'),
+    path('perfil', views.perfil, name="perfil"),
+    path('fichas', views.fichas, name="fichas")
 ]

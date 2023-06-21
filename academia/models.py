@@ -41,3 +41,16 @@ class Modalidade(models.Model):
 
     def __str__(self):
         return f'Modalidade {self.NomMod} cadastrada com sucesso'
+    
+
+class Fichas(models.Model):
+    Nome = models.CharField(max_length=128)
+    MasCor = models.IntegerField()
+    idade = models.IntegerField()
+    Altura = models.IntegerField()
+    peso = models.IntegerField()
+    observacao = models.TextField()
+
+    def __str__(self):
+        return f'Ficha para o {self.Nome}, cadastrada com sucesso!'
+    

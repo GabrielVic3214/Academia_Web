@@ -1,7 +1,7 @@
 from django.http import JsonResponse
 from django.shortcuts import get_object_or_404, render, redirect, HttpResponse
 from .models import Modalidade, Usuario, Parceiro
-from .forms import UserForm, Form_Parceiro, FormModalidade
+from .forms import FormFicha, UserForm, Form_Parceiro, FormModalidade
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.contrib.auth import authenticate, login
@@ -55,7 +55,7 @@ def menu_cliente(request):
 
 def listagem_cliente(request):
     users = Usuario.objects.all()
-    return render(request, 'main/tela_listagem_cliente.html', {'users': users})
+    return render(request, 'main/Tela_listagem_cliente.html', {'users': users})
 
 def agendamento_cliente(request):
     return render(request, 'main/Agendamento_cliente.html')
@@ -104,3 +104,21 @@ def cadastroModalidade(request):
     else:
         return render(request, 'main/cadastro_modalidades.html', {'form': form, 'modalidades': modalidades})
     
+def perfil(request):
+
+    cliente = Usuario.objects.latest('id')
+
+    return render(request, 'main/Perfil.html', {'cliente': cliente} )
+
+def fichas(request):
+
+    form = FormFicha()
+    if request.method == "POST":
+        form = FormFicha(request.POST)
+        print(form)
+        if form.is_valid():
+            form.save()
+            return redirect('menu_admin')
+        
+
+    return render(request, 'main/fichas.html', {'form': form})

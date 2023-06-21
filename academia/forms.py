@@ -1,6 +1,6 @@
 from django import forms
 
-from .models import Usuario, Parceiro, Modalidade
+from .models import Fichas, Usuario, Parceiro, Modalidade
 
 class UserForm(forms.ModelForm):
 
@@ -196,4 +196,11 @@ class FormModalidade(forms.ModelForm):
 
     class Meta:
         model = Modalidade
+        fields = '__all__'
+
+class FormFicha(forms.ModelForm):
+
+
+    class Meta:
+        model = Fichas
         fields = '__all__'

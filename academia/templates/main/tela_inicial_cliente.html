@@ -73,12 +73,12 @@
     </div>
     <div class="col-sm-3"> 
       <img src="{% static 'imgs/Fichas.png' %}" class="img-responsive" style="width:60%; display: block; margin: auto;"  float: center; alt="Image">
-      <a href="TelaFichasCli.html"><button class="button">Fichas</button></a>
+      <button class="button">Fichas</button>
 
     </div>
     <div class="col-sm-3">
       <img src=" {% static 'imgs/Perfil.jpg' %}" class="img-responsive" style="width:60%; display: block; margin: auto;"  float: center; alt="Image">
-      <button class="button">Meu Perfil</button>
+      <a href="{% url 'perfil' %}"><button class="button">Meu Perfil</button></a>
     </div>
   </div>
 </div><br>
